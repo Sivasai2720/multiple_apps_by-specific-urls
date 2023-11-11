@@ -1,0 +1,7 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
+def msd(request):
+    return render(request,'msd.html')
+def ravendra(requst):
+    return HttpResponse('<h1>Mr Jadu</h1>')
